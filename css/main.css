@@ -10261,3 +10261,11 @@ background-image: url('../images/yellow_bkgnd.jpg');
 padding-bottom: 48px;
 }
 
+#accessories{
+  background-image: url('../images/parallax.jpg');
+  padding-bottom: 48px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
