@@ -6180,7 +6180,7 @@ fieldset[disabled] .navbar-form.focus .input-group-btn .btn-default.active {
   border-color: #1abc9c;
 }
 .input-group .input-group-btn .btn {
-  background-color: #ffffff;
+  background-color: #f36f2f;
   border: 2px solid #bdc3c7;
   border-width: 2px 2px 2px 0;
   color: #bdc3c7;
@@ -9426,8 +9426,6 @@ h4 {
 }
 p {
   font-weight: 300;
-  margin: 0 0 12px 0;
-  padding: 0 0 24px 0;
 }
 p.lead {
   font-size: 28px;
@@ -9440,7 +9438,7 @@ header {
   text-align: center;
 }
 section {
-  padding: 72px 0;
+  padding: 40px 0;
 }
 input {
   margin-bottom: 19px;
@@ -9622,8 +9620,8 @@ form .btn {
   height: 600px;
 }
 #hero .intro {
-  padding-top: 144px;
-  padding-bottom: 24px;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 #hero .intro img {
   padding-bottom: 24px;
@@ -9667,7 +9665,7 @@ form .btn {
 }
 /* ========== 6. NEWSLETTER SECTION ========== */
 #newsletter {
-  background-color: #1abc9c;
+  background-color: #64bd55;
   padding-bottom: 48px;
 }
 #newsletter p.lead {
@@ -9937,7 +9935,7 @@ form .btn {
 }
 /* ========== 10. TESTIMONIALS SECTION ========== */
 #testimonials {
-  background-color: #1abc9c;
+  background-color: #64bd55;
 }
 #testimonials .quote-icon img {
   height: 168px;
