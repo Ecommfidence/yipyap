@@ -8134,7 +8134,7 @@ a.list-group-item.active > .badge,
   line-height: 1;
 }
 .bottom-menu-inverse {
-  background-color: #34495e;
+  background-color: #ACB6BC;
   color: #677786;
 }
 .bottom-menu-large {
@@ -9933,9 +9933,6 @@ form .btn {
   color: white;
 }
 /* ========== 10. TESTIMONIALS SECTION ========== */
-#testimonials {
-  background-color: #64bd55;
-}
 #testimonials .quote-icon img {
   height: 168px;
   width: 168px;
@@ -9950,7 +9947,7 @@ form .btn {
   font-size: 18px;
   font-weight: 300;
 }
-#testimonials cite a {
+#testimonials cite span {
   color: #ecf0f1;
   border-bottom: dotted 1px #ecf0f1;
 }
@@ -10110,15 +10107,18 @@ form .btn {
 #footer .bottom-menu-inverse ul.bottom-icons li {
   text-align: right;
 }
-#footer .bottom-menu ul.bottom-icons li a,
-#footer .bottom-menu-inverse ul.bottom-icons li a {
-  font-size: 30px;
-  padding-top: 6px;
-
+#footer .bottom-menu ul.bottom-icons li i,
+#footer .bottom-menu-inverse ul.bottom-icons li i {
+  font-size: 45px;
+  margin-top: 10px;
 }
-#footer .bottom-menu ul.bottom-icons li a:hover,
-#footer .bottom-menu-inverse ul.bottom-icons li a:hover {
-  color: white;
+#footer .bottom-menu ul.bottom-icons li i:hover,
+#footer .bottom-menu-inverse ul.bottom-icons li i:hover {
+  color: #333;
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 /* ========== 14. MEDIA QUERIES ========== */
 @media (max-width: 991px) {
