@@ -10,3 +10,40 @@
 .white-hvr:hover{
 	color:white;
 }
+.imager {
+	height: 80px;
+}
+.huvr {
+	color: white;
+	text-decoration:none;
+}
+.huvr:hover{
+	color: white;
+	text-decoration:underline;
+}
+.font28-special {
+	font-size: 28px;
+}
+.font32-special {
+	font-size: 32px;
+}
+.fb-blue {
+	color: #3B5998;
+}
+.twit-blue {
+	color: #4099FF;
+}
+.pinterest-red {
+	color: #C92228;
+}
+.plus-red {
+	color: #D34836;
+}
+@media (max-width: 1200px) and (min-width: 992px){
+	.font28-special {
+		font-size: 24px;
+	}
+	.font32-special {
+		font-size: 28px;
+	}
+}

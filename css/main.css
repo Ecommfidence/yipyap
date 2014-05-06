@@ -6181,7 +6181,6 @@ fieldset[disabled] .navbar-form.focus .input-group-btn .btn-default.active {
 }
 .input-group .input-group-btn .btn {
   background-color: #f36f2f;
-  border: 2px solid #bdc3c7;
   border-width: 2px 2px 2px 0;
   color: #bdc3c7;
   margin-left: -2px;
@@ -8131,7 +8130,7 @@ a.list-group-item.active > .badge,
   clear: both;
 }
 .bottom-icons {
-  font-size: 16px;
+  font-size: 50px;
   line-height: 1;
 }
 .bottom-menu-inverse {
@@ -10097,7 +10096,7 @@ form .btn {
 }
 #footer .bottom-menu,
 #footer .bottom-menu-inverse {
-  padding: 24px 0 0;
+  padding: 24px 0 24px 0;
 }
 #footer .bottom-menu p,
 #footer .bottom-menu-inverse p {
@@ -10113,13 +10112,13 @@ form .btn {
 }
 #footer .bottom-menu ul.bottom-icons li a,
 #footer .bottom-menu-inverse ul.bottom-icons li a {
-  font-size: 18px;
+  font-size: 30px;
   padding-top: 6px;
-  color: white;
+
 }
 #footer .bottom-menu ul.bottom-icons li a:hover,
 #footer .bottom-menu-inverse ul.bottom-icons li a:hover {
-  color: #1abc9c;
+  color: white;
 }
 /* ========== 14. MEDIA QUERIES ========== */
 @media (max-width: 991px) {
