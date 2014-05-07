@@ -159,7 +159,9 @@ $(document).ready(function() {
 		    }
 		}
 	});
-
+    $('#open-popup').magnificPopup({
+        type: 'iframe' // this overrides default type
+	});
 	/* ========== END OF SCRIPTS ========== */
 
 });
