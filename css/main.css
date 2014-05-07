@@ -10250,12 +10250,18 @@ form .btn {
 background-color: #fc933a;
 background-image: url('../images/orange_bkgnd.jpg');
 padding-bottom: 48px;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #call_to_action2{
 background-color: #ffc650;
 background-image: url('../images/yellow_bkgnd.jpg');
 padding-bottom: 48px;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 #accessories{
