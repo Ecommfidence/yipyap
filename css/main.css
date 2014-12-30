@@ -8,6 +8,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'Meloriac';
+    url('../fonts/Typodermic - Meloriac-Regular.ttf') format('truetype');
+}
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: 'booom';
@@ -9436,6 +9440,7 @@ p.lead {
 header {
   margin-bottom: 12px;
   text-align: center;
+    font-family: "Meloriac";
 }
 section {
   padding: 40px 0;
@@ -9612,6 +9617,7 @@ form .btn {
 }
 #header .navbar .logo-img {
   position: absolute;
+    width:143px;
 }
 /* ========== 4. HERO SECTION ========== */
 #hero {
@@ -9635,7 +9641,7 @@ form .btn {
   height: 672px;
   width: 100%;
   position: fixed;
-  background: url('../images/hero.jpg') center center no-repeat;
+  background: url('../images/intropipsqueak.png') center center no-repeat;
   background-size: cover;
   z-index: -100;
 }
