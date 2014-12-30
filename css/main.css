@@ -9623,7 +9623,7 @@ form .btn {
 #hero {
   padding: 0;
   background: transparent;
-  height: 600px;
+  /*height: 600px;*/
 }
 #hero .intro {
   padding-top: 90px;
@@ -9641,8 +9641,8 @@ form .btn {
   height: 672px;
   width: 100%;
   position: fixed;
-  background: url('../images/intropipsqueak.png') center center no-repeat;
-  background-size: cover;
+  background: url('../images/intropipsqueak.png') top center no-repeat;
+  background-size: contain;
   z-index: -100;
 }
 /* ========== 5. FEATURES SECTION ========== */
