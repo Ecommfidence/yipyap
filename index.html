@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Booom!</title>
+        <title>YipYap!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- The main CSS file -->
@@ -11,6 +11,10 @@
         <!-- CSS file for your custom modifications -->
         <link href="css/custom.css" rel="stylesheet">
         <link href="css/utility-belt.css" rel="stylesheet">
+
+        <!-- Owl Carousel Assets -->
+        <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="owl-carousel/owl.theme.css" rel="stylesheet">
 
         <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -60,7 +64,7 @@
                             <li><a href="#gallery">FEATURES</a></li>
                             <li><a href="#our_story">OUR STORY</a></li>
                             <li><a href="#testimonials">PRESS</a></li>
-                            <li><a href="#buy">BUY NOW</a></li>
+                            <li><a href="#buy">PRE-ORDER NOW</a></li>
                           
         
                             <!-- If you want sub-menu items, do them like this
@@ -87,26 +91,64 @@
     <!--/////////////////////////////////////// HERO SECTION ////////////////////////////////////////-->
 
     <section id="hero">
-        <img src="images/intropipsqueak.png" alt="" title="" style="width:100%;"/>
 
-        <!--<div class="container">-->
-            <!--<div class="row">-->
-
-                <!--<div class="col-md-6 intro">-->
-                    <!--<h1 class="hero-title font48 white"> Meet Pipsqueak </h1>-->
-                    <!--<p class="hero-sub font34 white">The first Bluetooth phone for kids</p>-->
-                    <!--<p class="hero-sub-sub font24 white hidden-xs">Your smartphone will think it's connected to a bluetooth headset, and your kid will think they're connected on their own phone!</p>-->
-                    <!--<a href="#features" class="button keyboard orange-bkg white white-hvr">Buy Now</a>-->
-                <!--</div>-->
-
-            <!--</div>&lt;!&ndash; /row &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; /container &ndash;&gt;-->
+        <div class="container">
+            <div class="row padding-80 text-center">
+                <div class="col-md-4">
+                    <img alt="" title="" src="images/meet_pipsqueak.png" style="width:100%;"/>
+                </div>
+                <div class="col-md-5">
+                    <div class="hero-title-custom">The First Bluetooth Phone for Kids</div>
+                    <p class="open-sans-custom" style="color:#969798">It connects to your smartphone just like a bluetooth headset. So your kid will think they’re talking on their own phone while yours stays out of harms way.</p>
+                    <!--h1 class="hero-title font48 white"> Meet Pipsqueak </h1>
+                    <p class="hero-sub font34 white">The first Bluetooth phone for kids</p>
+                    <p class="hero-sub-sub font24 white hidden-xs">Your smartphone will think it's connected to a bluetooth headset, and your kid will think they're connected on their own phone!</p>
+                    <a href="#features" class="button keyboard orange-bkg white white-hvr">Buy Now</a-->
+                </div>
+                <div class="col-md-3">
+                    <img alt="" title="" src="images/phone_hero.png" style="width:100%;"/>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /container -->
 
     </section>
 
     <!--///////////////////////////////////////////////// end HERO SECTION ////////////////////////////////////////-->
 
 
+    <!--//////////////////////////////////////// end CALLTOACTION SECTION ////////////////////////////////////////-->
+
+
+    <section id="our_story" class="features">
+
+        <div class="info-section-white">
+
+            <div class="container" style="padding-bottom:40px;">
+                <div class="row">
+
+
+                    <div class="col-md-12 text-center">
+                        <h3 style="padding-top:40px;" class="white font60">Our Story</h3>
+                    </div>
+
+                </div>
+                <!-- /row -->
+                <div class="row">
+                    <div class="col-md-12 gallery-popup fitvids text-center">
+                        <iframe src="http://player.vimeo.com/video/115675573?title=0&amp;byline=0&amp;portrait=0"
+                                 frameborder="0" allowFullScreen></iframe>
+                    </div>
+                </div>
+                <!-- /container -->
+
+            </div >
+            <!-- /info-section-white -->
+        </div>
+
+    </section>
+    <br>
+
+    <!--/////////////////////////////////////// end INFO SECTION ////////////////////////////////////////-->
 
     <!--/////////////////////////////////////// FEATURES SECTION ////////////////////////////////////////-->
 
@@ -118,57 +160,63 @@
 
                 <h2 class="blue font36">Finally an Age-Appropriate Mobile Device<br>made for Kids!</h2>
             </header-->
-
             <div class="row">
+                <div class="span12">
 
-                <!-- Feature Item 1 -->
-                <div class="col-md-4 text-center">
-                    <div class="feature-icon">
-                        <img src="images/icons/loop.svg" alt="" title="" />
+                    <div id="owl-example" class="owl-carousel">
+
+                        <!-- Feature Item 1 -->
+                        <div class="item text-center">
+                            <div class="feature-icon">
+                                <img src="images/icon_02.png" alt="" title="" />
+                            </div>
+                            <h4 class="orange">Bluetooth</h4>
+                            <p class="open-sans-custom">Bluetooth® devices have an SAR value of around 0.001 watts/kg, less than one thousandth the SAR limit for cell phones as set by the FDA and FCC. Source: www.cancer.org</p>
+                        </div>
+
+                        <!-- Feature Item 2 -->
+                        <div class="item text-center">
+                            <div class="feature-icon">
+                                <img src="images/icon_01.png" alt="" title="" />
+                            </div>
+                            <h4 class="orange">Full Parental Control </h4>
+                            <p class="open-sans-custom">Mom and Dad decide who their child can connect with and when.</p>
+                        </div>
+
+                        <!-- Feature Item 3 -->
+                        <div class="item text-center">
+                            <div class="feature-icon">
+                                <img src="images/icon_03.png" alt="" title="" />
+                            </div>
+                            <h4 class="orange">No Contract or Monthly Fees</h4>
+                            <p class="open-sans-custom">Pipsqueak connects via Bluetooth through your existing phones for free.</p>
+                        </div>
+
+                        <!-- Feature Item 4 -->
+                        <div class="item text-center">
+                            <div class="feature-icon">
+                                <img src="images/icon_05.png" alt="" title="" />
+                            </div>
+                            <h4 class="orange">Water Resistant and Durable</h4>
+                            <p class="open-sans-custom">Pipsqueak can get wet and is tough enough to take a tumble without breaking, because kids will be kids.</p>
+                        </div>
+
+                        <!-- Feature Item 5 -->
+                        <div class="item text-center">
+                            <div class="feature-icon">
+                                <img src="images/icon_04.png" alt="" title="" />
+                            </div>
+                            <h4 class="orange">Long Battery Life</h4>
+                            <p class="open-sans-custom">A big lithium polymer battery means less time on the charger and more play time.</p>
+                        </div>
+
+
                     </div>
-                    <h4 class="orange">Bluetooth</h4>
-                    <p>Bluetooth® devices have an SAR value of around 0.001 watts/kg, less than one thousandth the SAR limit for cell phones as set by the FDA and FCC. Source: www.cancer.org</p>
-                </div>
 
-                <!-- Feature Item 2 -->
-                <div class="col-md-4 text-center">
-                    <div class="feature-icon">
-                        <img src="images/icons/childsafety.svg" alt="" title="" />
-                    </div>
-                    <h4 class="orange">Full Parental Control </h4>
-                    <p>Mom and Dad decide who their child can connect with and when.</p>
-                </div>
 
-                <!-- Feature Item 3 -->
-                <div class="col-md-4 text-center">
-                    <div class="feature-icon">
-                        <img src="images/icons/money.svg" alt="" title="" />
-                    </div>
-                    <h4 class="orange">No Contract or Monthly Fees</h4>
-                    <p>Pipsqueak connects via Bluetooth through your existing phones for free.</p>
                 </div>
+            </div>
 
-            </div><!-- /row -->
-            <div class="row">
-                <!-- Feature Item 2 -->
-                <div class="col-md-4 col-md-offset-2 text-center">
-                    <div class="feature-icon">
-                        <img src="images/icons/battery.svg" alt="" title="" />
-                    </div>
-                    <h4 class="orange">Long Battery Life</h4>
-                    <p>Pipsqueak can get wet and is tough enough to take a tumble without breaking, because kids will be kids.</p>
-                </div>
-
-                <!-- Feature Item 3 -->
-                <div class="col-md-4 text-center">
-                    <div class="feature-icon">
-                        <img src="images/icons/water.svg" alt="" title="" />
-                    </div>
-                    <h4 class="orange">Water Resistant and Durable</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-
-            </div><!-- /row -->
         </div><!-- /container -->
 
     </section>
@@ -218,27 +266,90 @@
 
 
 
-    <!--/////////////////////////////////////// GALLERY SECTION ////////////////////////////////////////-->
-
-    <section id="gallery">
-
+    <!--/////////////////////////////////////// CALLING SECTION ////////////////////////////////////////-->
+    <section id="calling">
         <div class="container">
-            <img src="images/callingpipsqueak.png" alt="" title="" style="width:100%"/>
-            <div style="height:50px;background-color:#ff9e2e;">&nbsp</div>
-            <img src="images/musicpipsqueak.png" alt="" title="" style="width:100%"/>
-            <div style="height:50px;background-color:#ffc009;">&nbsp</div>
-            <img src="images/gamespipsqueak.png" alt="" title="" style="width:100%"/>
-            <div style="height:50px;background-color:#59c6b4;">&nbsp</div>
-            <img src="images/customizepipsqueak.png" alt="" title="" style="width:100%"/>
+            <div class="row padding-60">
+                <div class="col-md-6">
+                    <div class="col-md-10 col-md-offset-1">
+                        <img src="images/calling_title.png" alt="" title="" style="width:100%"/>
+                    </div>
 
+                    <p class="col-md-10 col-md-offset-1 open-sans-custom">
+                        <br>
+                        Calling all motor mouths! Pairing Pipsqueak to your phone for the first time is easy. Simply turn on Bluetooth on mom or dad’s phone and select “Pipsqueak” from the device list. Once connected, you can route calls to Pipsqueak easily.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/girl_withphone.png" alt="" title="" style="width:100%;margin-top:20px;"/>
+                </div>
+            </div>
         </div><!-- /container -->
-
     </section>
+    <!--/////////////////////////////////////// end CALLING SECTION ////////////////////////////////////////-->
+    <!--/////////////////////////////////////// MUSIC SECTION ////////////////////////////////////////-->
+    <section id="music">
+        <div class="container">
+            <div class="row padding-60">
+                <div class="col-md-6">
+                    <img src="images/music.png" alt="" title="" style="width:100%;margin-top:20px;"/>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-10 col-md-offset-1">
+                        <img src="images/music_title.png" alt="" title="" style="width:100%"/>
+                    </div>
 
-    <!--/////////////////////////////////////// end GALLERY SECTION ////////////////////////////////////////-->
+                    <p class="col-md-10 col-md-offset-1 open-sans-custom">
+                        <br>
+                        Let’s get this playdate started! Pipsqueak is also a music player and can hold hundreds of songs. Listen out loud through the built-in speakers, or plug in headphones for a party of one.
+                    </p>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </section>
+    <!--/////////////////////////////////////// end MUSIC SECTION ////////////////////////////////////////-->
+    <!--/////////////////////////////////////// CUSTOMIZE SECTION ////////////////////////////////////////-->
+    <section id="gallery">
+        <div class="container">
+            <div class="row padding-60">
+                <div class="col-md-6">
+                    <div class="col-md-10 col-md-offset-1">
+                        <img src="images/customize_title.png" alt="" title="" style="width:100%"/>
+                    </div>
 
+                    <p class="col-md-10 col-md-offset-1 open-sans-custom">
+                        <br>
+                        Go from red to yellow or Pirates to Princesses. With coverplates that are easily removable for a child, you can change the color and design of Pipsqueak as often as you want. Even change the photo discs, sound effects, and dangles to match.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/customize.png" alt="" title="" style="width:100%;margin-top:20px;"/>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </section>
+    <!--/////////////////////////////////////// end CUSTOMIZE SECTION ////////////////////////////////////////-->
+    <!--/////////////////////////////////////// GAMES SECTION ////////////////////////////////////////-->
+    <section id="games">
+        <div class="container">
+            <div class="row padding-60">
+                <div class="col-md-6">
+                    <img src="images/games.png" alt="" title="" style="width:100%;margin-top:20px;"/>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-10 col-md-offset-1">
+                        <img src="images/games_title.png" alt="" title="" style="width:100%"/>
+                    </div>
 
-
+                    <p class="col-md-10 col-md-offset-1 open-sans-custom">
+                        <br>
+                        Pipsqueak is here to play! With a color LCD display, built-in speakers, plenty of storage for games, and a directional keypad (located on the 2, 4, 6 & 8 buttons), Pipsqueak is perfect for gameplay.
+                    </p>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </section>
+    <!--/////////////////////////////////////// end GAMES SECTION ////////////////////////////////////////-->
 
 
     <!--/////////////////////////////////////// TESTIMONIALS SECTION ////////////////////////////////////////-->
@@ -253,44 +364,58 @@
                     <ol class="carousel-indicators">
                         <li data-target="#testimonials-slider" data-slide-to="0" class="active"></li>
                         <li data-target="#testimonials-slider" data-slide-to="1"></li>
+                        <li data-target="#testimonials-slider" data-slide-to="2"></li>
                     </ol>
 
                     <!-- Carousel items -->
                     <div class="carousel-inner">
 
                         <!-- Testimonial 1 -->
-                        <div class="active item">
-
+                        <div class="active item" style="height:139px;">
                             <div class="col-md-3 col-md-offset-1">
-
                                 <br>
-                                    <img src="images/mashable_logo.png" alt="" title="" />
-                                <p class="white"> Go to link.. </p>
+                                    <a href="http://www.dadlabs.com/blog/2012/11/02/a-pipsqueak-the-could-be-huge-yip-yap-nears-due-date/">
+                                        <img src="images/dadlabs_logo.png" alt="" title="" />
+                                    </a>
                             </div>
 
                             <div class="col-md-8">
-                                <p class="white">Well... honestly it doesn't get much better than this! These guys know what they're doing!</p>
-                                <cite class="white">John Doe, <a href="#">Freelance Journalist</a></cite>
+                                <p class="white">The benefits here are pretty obvious to any parent of small kids.</p>
+                                <cite class="white"><a href="http://www.dadlabs.com/blog/2012/11/02/a-pipsqueak-the-could-be-huge-yip-yap-nears-due-date/">Daddy Clay</a>,  Chief Creative Officer</cite>
                             </div>
                             <div class="padding-top15"></div>
-
                         </div>
 
                         <!-- Testimonial 2 -->
-                        <div class="item">
-
-                            <div class="col-md-2 col-md-offset-1">
-
-                                <div class="quote-icon">
-                                    <img src="images/icons/girl.svg" alt="" title="" />
-                                </div>
+                        <div class="item" style="height:139px;">
+                            <div class="col-md-3 col-md-offset-1">
+                                <br>
+                                <a href="http://coolmomtech.com/2012/10/a-safe-cell-phone-for-kids-that-m/">
+                                    <img src="images/coolmomtech_logo.png" alt="" title="" />
+                                </a>
                             </div>
 
                             <div class="col-md-8">
-                                <p class="white">If i had to do it again, i'd definitely go with the same team - that was an amazing experience.</p>
-                                <cite class="white">Sarah Jackson, <a href="#">Startup Owner</a></cite>
+                                <p class="white">In fact, it might be the only [mobile] phone for a 3 year-old that we'd actually recommend....Let's just say as a parent, this is on I really hope meets its funding goals.</p>
+                                <cite class="white"><a href="http://coolmomtech.com/2012/10/a-safe-cell-phone-for-kids-that-m/">Liz Gumbinner</a>, Publisher CoolMomTech.com</cite>
+                            </div>
+                            <div class="padding-top15"></div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="item" style="height:139px;">
+                            <div class="col-md-3 col-md-offset-1">
+                                <br>
+                                <a href="http://www.dadlabs.com/blog/2012/11/02/a-pipsqueak-the-could-be-huge-yip-yap-nears-due-date/">
+                                    <img src="images/mashable_logo.png" alt="" title="" />
+                                </a>
                             </div>
 
+                            <div class="col-md-8">
+                                <p class="white">Maybe it's time for them to have their own [phone] -- one made especially for kids.</p>
+                                <cite class="white"><a href="http://www.dadlabs.com/blog/2012/11/02/a-pipsqueak-the-could-be-huge-yip-yap-nears-due-date/">Kate Freeman</a>, Tech Reporter</cite>
+                            </div>
+                            <div class="padding-top15"></div>
                         </div>
 
                     </div>
@@ -318,8 +443,8 @@
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-6">
-                        <p>Contact Us: contact@yipyap.com</p><p>2014 Yip Yap &copy;</p>
+                    <div class="col-md-6 open-sans-custom">
+                        <p>Contact Us: contact@yipyap.com</p><p>&copy;2014 Yip Yap </p>
                     </div>
 
                     <div class="col-md-6 social">
@@ -368,6 +493,18 @@
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/custom.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Frontpage Demo -->
+    <script>
+
+        $(document).ready(function($) {
+            $("#owl-example").owlCarousel({
+                items:3
+            });
+        });
+
+    </script>
 
     <!--//////////////////////////////////////// end JAVASCRIPT LOAD ////////////////////////////////////////-->
 

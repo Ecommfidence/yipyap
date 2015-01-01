@@ -10,3 +10,37 @@
 .white-hvr:hover{
 	color:white;
 }
+#our_story{
+    background-image: url('../images/video_bkgnd.png');
+    background-size: cover;
+}
+.open-sans-custom{
+    font-family: "Open Sans";
+}
+.padding-80{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.padding-60{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+#music{
+    background-image: url('../images/music_bkgnd.png');
+    background-size: cover;
+}
+#games{
+    background-image: url('../images/games_bkgnd.png');
+    background-size: cover;
+}
+#calling{
+    background-color:white;
+}
+.hero-title-custom{
+    margin-top:80px;
+    margin-bottom:30px;
+    border-top: 3px solid #379fd5;
+    border-bottom: 3px solid #379fd5;
+    color:#379fd5;
+    font-size:18pt;
+}

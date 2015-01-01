@@ -8139,8 +8139,8 @@ a.list-group-item.active > .badge,
   line-height: 1;
 }
 .bottom-menu-inverse {
-  background-color: #34495e;
-  color: #677786;
+  background-color: #c6c6c6;
+  color: white;
 }
 .bottom-menu-large {
   padding-bottom: 56px;
